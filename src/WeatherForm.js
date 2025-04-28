@@ -20,12 +20,12 @@ export default function WeatherForm() {
   function handleResponse(response) {
     setWeather(
       <ul>
-        <li>Temperature:{response.data.temperature.current}</li>
+        <li>Temperature:{Math.round(response.data.temperature.current)}</li>
         <li>Description:{response.data.condition.description}</li>
         <li>Humidity:{response.data.temperature.humidity}</li>
         <li>Wind:{response.data.wind.speed}</li>
         <li>
-          <img src={response.data.condition.icon_url} />
+          <img src={response.data.condition.icon_url} alt="qwerty" />
         </li>
       </ul>
     );
