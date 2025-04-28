@@ -16,7 +16,8 @@ function App() {
         <a href="https://github.com/BarbaraISC/weather-react-shecodes">
           open-sourced on Github
         </a>{" "}
-        and hosted on <a href="https://www.netlify.com/">Netlify</a>
+        and hosted on{" "}
+        <a href="https://weather-app-barbara.netlify.app/">Netlify</a>
       </footer>
     </div>
   );
