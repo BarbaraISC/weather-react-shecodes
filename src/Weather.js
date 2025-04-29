@@ -1,7 +1,31 @@
 import React, { useState } from "react";
+import "//Weather.css";
 import axios from "axios";
 
-export default function WeatherForm() {
+// return (
+// <div className="Weather">
+// <h1>Figueira da Foz</h1>
+// <ul>
+// <li>Wednesday 07:00</li>
+// <li>Mostly cloudy</li>
+//</ul>
+//</div>
+//<div className="row">
+//<div className="col-6">
+// imagem
+//6ºC
+//</div>
+//<div className="col-6">
+// <ul>
+// <li>Precipitation: 15%</li>
+// <li>Humidity: 72%</li>
+// <li>Wind: 13 km/h</li>
+//</ul>
+// </div>
+// </div>;
+//)
+
+export default function Weather() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState();
 

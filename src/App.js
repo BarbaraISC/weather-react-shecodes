@@ -1,5 +1,5 @@
 import "./App.css";
-import WeatherForm from "./WeatherForm";
+import Weather from "./Weather";
 import logo from "./logo.png";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <img className="logo" alt="SheCodes logo" src={logo} />
         <h1>Weather App</h1>
-        <WeatherForm />
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/BarbaraISC">Bárbara Silva</a> and is{" "}
