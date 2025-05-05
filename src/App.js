@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <div className="container">
         <img className="logo" alt="SheCodes logo" src={logo} />
-        <h1>Weather App</h1>
         <Weather />
         <footer>
           This project was coded by{" "}
