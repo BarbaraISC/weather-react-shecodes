@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <img className="logo" alt="SheCodes logo" src={logo} />
-        <Weather />
+        <Weather defaultCity="Figueira da Foz" />
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/BarbaraISC">Bárbara Silva</a> and is{" "}
